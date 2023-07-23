@@ -9,7 +9,10 @@ To use this starter template, you'll need to have Node.js on machine.
 Clone this repository:
 
 ```
-git clone https://github.com/Mohit-wednesday/react-vite-capacitor.git
+git clone https://github.com/lucascassiano/capacitor-react-template.git
+
+# optional
+rm -r .git
 
 ```
 
@@ -29,6 +32,8 @@ To build the app for production:
 
 ```
 yarn build
+npx cap sync
+
 ```
 
 To run the app on a device, use the Capacitor CLI:
